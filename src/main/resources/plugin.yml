@@ -1,0 +1,16 @@
+name: ClaimLevels
+main: com.github.xCyanide.ClaimLevels
+version: 1.5
+author: xCyanide
+description: Redeem mcMMO credits
+commands:
+  addcredits:
+    description: Add Credits
+  takecredits:
+    description: Take Credits
+  redeem:
+    description: Redeem Credits
+  credits:
+    description: Check credit balance
+  clreload:
+    description: Reloads config

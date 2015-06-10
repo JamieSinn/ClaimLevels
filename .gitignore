@@ -1,0 +1,6 @@
+.idea/
+*.iml
+target/
+.idea/copyright/profiles_settings.xml
+.idea/compiler.xml
+.idea/workspace.xml
