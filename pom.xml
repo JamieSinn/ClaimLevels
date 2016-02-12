@@ -13,7 +13,7 @@
         </repository>
         <repository>
             <id>drtshock-releases</id>
-            <url>https://ci.drtshock.net/job/MCMMO/35/maven-repository/repository</url>
+            <url>https://ci.drtshock.net/plugin/repository/everything/com/gmail/nossr50/mcMMO/</url>
         </repository>
     </repositories>
 
