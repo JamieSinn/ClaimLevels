@@ -34,7 +34,7 @@
     </dependencies>
 
     <build>
-        <defaultGoal>clean package</defaultGoal>
+        <defaultGoal>clean install</defaultGoal>
         <finalName>ClaimLevels</finalName>
         <plugins>
             <plugin>
