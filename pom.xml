@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.xCyanide.ClaimLevels</groupId>
+    <groupId>ca.jamiesinn</groupId>
     <artifactId>ClaimLevels</artifactId>
-    <version>1.8-SNAPSHOT</version>
+    <version>1.9-SNAPSHOT</version>
     <name>ClaimLevels</name>
     <description>ClaimLevels</description>
 
@@ -10,10 +10,6 @@
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>drtshock-releases</id>
-            <url>https://ci.drtshock.net/plugin/repository/everything/</url>
         </repository>
     </repositories>
 
