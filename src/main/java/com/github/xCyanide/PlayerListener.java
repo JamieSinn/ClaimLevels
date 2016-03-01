@@ -41,13 +41,14 @@ public class PlayerListener implements Listener
     {
         Player player = event.getPlayer();
         int levels = dm.getData().getInt(player.getUniqueId().toString() + ".credits");
-        if (levels > 0)
+
+        player.sendMessage(Lang.PREFIX.toString() + ChatColor.AQUA + "You have "
+                + ChatColor.DARK_AQUA + (levels > 0 ? levels : 0)
+                + ChatColor.AQUA + " level(s) to redeem on a mcMMO skill");
+        if (!dm.getData().contains(player.getUniqueId().toString()))
         {
-            player.sendMessage(Lang.PREFIX.toString() + ChatColor.AQUA + "You have " + ChatColor.DARK_AQUA + levels + ChatColor.AQUA + " level(s) to redeem on a mcMMO skill");
-            if (!dm.getData().contains(player.getUniqueId().toString()))
-            {
-                dm.getData().set(player.getUniqueId().toString() + ".credits", levels);
-            }
+            dm.getData().set(player.getUniqueId().toString() + ".credits", levels);
         }
+
     }
 }

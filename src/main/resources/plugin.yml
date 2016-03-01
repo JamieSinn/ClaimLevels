@@ -1,7 +1,7 @@
 name: ClaimLevels
 main: com.github.xCyanide.ClaimLevels
-version: 1.5
-author: xCyanide
+version: 1.9
+author: JamieSinn
 description: Redeem mcMMO credits
 commands:
   addcredits:
