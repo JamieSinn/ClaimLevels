@@ -71,7 +71,7 @@ public class ClaimLevels extends JavaPlugin
         getCommand("credits").setExecutor(new Credits());
         getCommand("redeem").setExecutor(new Redeem());
         getCommand("clreload").setExecutor(new Reload());
-        getCommand("takecretdits").setExecutor(new TakeCredits());
+        getCommand("takecredits").setExecutor(new TakeCredits());
     }
 
     public void convertToUUID()
