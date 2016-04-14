@@ -20,9 +20,9 @@ import java.util.logging.Logger;
 public class ClaimLevels extends JavaPlugin
 {
     private static ClaimLevels instance;
-    public static YamlConfiguration LANG;
-    public static File LANG_FILE;
-    public static Logger log;
+    private static YamlConfiguration LANG;
+    private static File LANG_FILE;
+    private Logger log = this.getLogger();
     public static DataManager dm = DataManager.getInstance();
 
     public static String getUUIDFromName(String name)
@@ -130,8 +130,8 @@ public class ClaimLevels extends JavaPlugin
             catch (IOException e)
             {
                 e.printStackTrace(); // So they notice
-                log.severe("[ClaimLevels] Couldn't create language file.");
-                log.severe("[ClaimLevels] This is a fatal error. Now disabling");
+                log.severe("Couldn't create language file.");
+                log.severe("This is a fatal error. Now disabling");
                 this.setEnabled(false); // Without it loaded, we can't send them messages
             }
             finally

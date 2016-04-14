@@ -62,7 +62,7 @@ public class Redeem implements CommandExecutor
         return true;
     }
 
-    public boolean checkCap(Player p, String[] args)
+    private boolean checkCap(Player p, String[] args)
     {
         String skillType = args[0];
         int cap = ExperienceAPI.getLevelCap(skillType);
