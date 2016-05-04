@@ -38,8 +38,8 @@ public class Redeem implements CommandExecutor
                     || skillType.equalsIgnoreCase("mining")
                     || skillType.equalsIgnoreCase("herbalism")
                     || skillType.equalsIgnoreCase("repair")
-                    || skillType.equalsIgnoreCase("woodcutting"))
-                    || skillType.equalsIgnoreCase("alchemy"))
+                    || skillType.equalsIgnoreCase("woodcutting")
+                    || skillType.equalsIgnoreCase("alchemy")))
             {
                 p.sendMessage(Lang.PREFIX.toString() + ChatColor.DARK_RED + "That is not a skill");
                 return true;
